@@ -48,7 +48,7 @@ public class WaterWaveAttrInit {
 		textColor = typedArray.getColor(
 				R.styleable.WaterWaveProgress_textColor, 0xFFFFFFFF);
 		progress = typedArray.getInteger(
-				R.styleable.WaterWaveProgress_progress, 15);
+				R.styleable.WaterWaveProgress_mProgress, 15);
 		maxProgress = typedArray.getInteger(
 				R.styleable.WaterWaveProgress_maxProgress, 100);
 		typedArray.recycle();

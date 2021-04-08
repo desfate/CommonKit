@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/futrtch/AndroidStudioProjects/CommonKit/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/futrtch/AndroidStudioProjects/CommonKit/app/src/main/res/layout/activity_progress.xml" value="0.2753623188405797" />
+        <entry key="..\:/Users/futrtch/AndroidStudioProjects/CommonKit/app/src/main/res/layout/activity_views.xml" value="0.2359375" />
+        <entry key="..\:/Users/futrtch/AndroidStudioProjects/CommonKit/app/src/main/res/layout/views_item.xml" value="0.2359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -21,7 +21,7 @@ class FastViewHolder(view: View) : RecyclerView.ViewHolder(view){
     }
 
     companion object {
-        fun getViewHolde(parent: ViewGroup, layoutId: Int): FastViewHolder{
+        fun getViewHolder(parent: ViewGroup, layoutId: Int): FastViewHolder{
             return FastViewHolder(LayoutInflater.from(parent.context).inflate(layoutId, parent,false))
         }
     }

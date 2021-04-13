@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion '29.0.3'
+    compileSdkVersion build_versions.compileSdkVersion
+    buildToolsVersion build_versions.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 24
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion       build_versions.minSdkVersion
+        targetSdkVersion    build_versions.targetSdkVersion
+        versionCode         build_versions.versionCode
+        versionName         build_versions.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -30,10 +30,8 @@ android {
 }
 
 dependencies {
-
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation androidDeps.androidX.appcompat
+    implementation androidDeps.androidX.recyclerview
+    implementation androidDeps.androidX.constraintLayout
+    implementation androidDeps.androidX.lifecycle
 }

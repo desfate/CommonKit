@@ -26,6 +26,10 @@
         <activity
             android:name=".views.ProgressActivity">
         </activity>
+
+        <activity
+            android:name=".CoroutinesActivity"
+            />
     </application>
 
 </manifest>

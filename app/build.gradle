@@ -6,8 +6,8 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "github.com.desfate.libbuild"
-        minSdkVersion 24
+        applicationId "com.github.desfate.commonkit"
+        minSdkVersion 26
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -33,5 +33,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation ktlDeps.coroutines.runtime
+    implementation ktlDeps.androidx.lifecycle
     implementation project(path: ':commonlib')
 }
